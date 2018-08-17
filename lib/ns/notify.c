@@ -27,10 +27,9 @@
 #include <ns/types.h>
 
 /*! \file
- * \brief
  * This module implements notify as in RFC1996.
  */
-
+// This is x8091, and I want to be a contributor too :)
 static void
 notify_log(ns_client_t *client, int level, const char *fmt, ...) {
 	va_list ap;
